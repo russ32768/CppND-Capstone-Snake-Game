@@ -32,4 +32,4 @@ In this project, you can build your own C++ application or extend this Snake gam
 
 ## Rubric Specifications
 
-See rubric.md
+See rubric_steps.md and rubric.md
