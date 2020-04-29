@@ -2,8 +2,8 @@
 # C++ Capstone Project
 
 ## README (All Rubric Points REQUIRED)
-### 
-### CRITERIA | #### MEETS SPECIFICATIONS
+ 
+  CRITERIA |   MEETS SPECIFICATIONS
 --- | ---
 A README with instructions is included with the project | The README is included with the project and has instructions for building/running the project.
                                                         | If any additional libraries are needed to run the project, these are indicated with cross-platform installation instructions.
@@ -13,15 +13,15 @@ The README indicates which project is chosen. | The README describes the project
 The README includes information about each rubric point addressed. | The README indicates which rubric points are addressed. The README also indicates where in the code (i.e. files and line numbers) that the rubric points are addressed.
 
 ## Compiling and Testing (All Rubric Points REQUIRED)
-### 
-### CRITERIA | #### MEETS SPECIFICATIONS
+  
+  CRITERIA |   MEETS SPECIFICATIONS
 --- | ---
 The submission must compile and run. | The project code must compile and run without errors.
                                      | We strongly recommend using cmake and make, as provided in the starter repos. If you choose another build system, the code must compile on any reviewer platform.
 
 ## Loops, Functions, I/O
-### 
-### CRITERIA | #### MEETS SPECIFICATIONS
+  
+  CRITERIA |   MEETS SPECIFICATIONS
 --- | ---
 The project demonstrates an understanding of C++ functions and control structures. | A variety of control structures are used in the project.
                                                                                    | The project code is clearly organized into functions.
@@ -29,8 +29,8 @@ The project reads data from a file and process the data, or the program writes d
 The project accepts user input and processes the input. | The project accepts input from a user as part of the necessary operation of the program.
 
 ## Object Oriented Programming
-### 
-### CRITERIA | #### MEETS SPECIFICATIONS
+  
+  CRITERIA |   MEETS SPECIFICATIONS
 --- | ---
 The project uses Object Oriented Programming techniques. | The project code is organized into classes with class attributes to hold the data, and class methods to perform tasks.
 Classes use appropriate access specifiers for class members. | All class data members are explicitly specified as public, protected, or private.
@@ -43,8 +43,8 @@ Derived class functions override virtual base class functions. | One member func
 Templates generalize functions in the project. | One function is declared with a template that allows it to accept a generic parameter.
 
 ## Memory Management
-### 
-### CRITERIA | #### MEETS SPECIFICATIONS
+  
+  CRITERIA |   MEETS SPECIFICATIONS
 --- | ---
 The project makes use of references in function declarations. | At least two variables are defined as references, or two functions use pass-by-reference in the project code.
 The project uses destructors appropriately. | At least one class that uses unmanaged dynamically allocated memory, along with any class that otherwise needs to modify state upon the termination of an object, uses a destructor.
@@ -54,8 +54,8 @@ The project uses move semantics to move data, instead of copying it, where possi
 The project uses smart pointers instead of raw pointers. | The project uses at least one smart pointer: unique_ptr, shared_ptr, or weak_ptr. The project does not use raw pointers.
 
 ## Concurrency
-### 
-### CRITERIA | #### MEETS SPECIFICATIONS
+  
+  CRITERIA |   MEETS SPECIFICATIONS
 --- | ---
 The project uses multithreading. | The project uses multiple threads in the execution.
 A promise and future is used in the project. | A promise and future is used to pass data from a worker thread to a parent thread in the project code.
