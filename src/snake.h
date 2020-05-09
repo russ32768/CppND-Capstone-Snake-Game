@@ -14,6 +14,12 @@ class Snake {
         head_x(grid_width / 2),
         head_y(grid_height / 2) {}
 
+  Snake(int grid_width, int grid_height, int offset)
+      : grid_width(grid_width),
+        grid_height(grid_height),
+        head_x(grid_width / 2 + offset),
+        head_y(grid_height / 2 + offset) {}
+
   ~Snake();
   Snake(const Snake &src);
   Snake &operator=(const Snake &src);

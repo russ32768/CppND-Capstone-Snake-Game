@@ -5,7 +5,8 @@
 
 class Controller {
  public:
-  void HandleInput(bool &running, Snake &snake) const;
+  void HandleInput(bool &running, Snake &snake, Snake &snake2,
+                   SDL_Point food) const;
 
  private:
   void ChangeDirection(Snake &snake, Snake::Direction input,
